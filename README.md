@@ -37,3 +37,11 @@ I made this as an exercise nad of course the code shown above can be edited, but
 Down here i will post my exercise links.
 
 [Exercise 1](exercise1.md)
+
+[Exercise 2](exercise2.md)
+
+Here are also links to my github and to the website of Campus02.
+
+[Github](https://github.com/s50766)
+
+[Campus02](https://www.campus02.at/)
