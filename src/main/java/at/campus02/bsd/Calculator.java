@@ -35,17 +35,6 @@ public class Calculator {
         return result;
     }
 
-    public static void main(String[] args) {
-        Double number1 = 4.0;
-        Double number2 = 3.0;
-
-        System.out.printf("Calculator Result: " + add(number1,number2));
-        System.out.printf("Calculator Result: " + minus(number1,number2));
-        System.out.printf("Calculator Result: " + divide(number1,number2));
-        System.out.printf("Calculator Result: " + multiply(number1,number2));
-
-
-    }
 
 
 }
