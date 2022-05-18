@@ -12,6 +12,7 @@ public class main {
         System.out.printf("Calculator - Result: " + minus(number1,number2) + "\n");
         System.out.printf("Calculator : Result: " + divide(number1,number2) + "\n");
         System.out.printf("Calculator * Result: " + multiply(number1,number2) + "\n");
+        System.out.printf("Calculator Faculty: " + faculty(number1));
 
 
     }

@@ -35,6 +35,19 @@ public class Calculator {
         return result;
     }
 
+    public static double faculty(double number1){
+        double number = number1, i = 1;
+        double factorial = 1;
+        if (number > 0){
+        while(i <= number)
+        {
+            factorial *= i;
+            i++;
+        }
+        return factorial;
+        } else
+        return 0;
+    }
 
 
 }

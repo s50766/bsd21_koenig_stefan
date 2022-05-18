@@ -69,4 +69,24 @@ private Calculator calc;
         Assertions.assertEquals(result,Calculator.divide(a,b));
     }
 
+    @Test
+    public void testFaculty1(){
+        Assertions.assertEquals(0,Calculator.faculty(-2));
+    }
+
+    @Test
+    public void testFaculty2(){
+        double result = 5 * 4 * 3 * 2 * 1;
+        Assertions.assertEquals(result,Calculator.faculty(5));
+    }
+
+
+    @Test
+    public void testFaculty3(){
+        double result = 6 * 5 * 4 * 3 * 2 * 1;
+        Assertions.assertEquals(result,Calculator.faculty(6));
+
+    }
+
+
 }
