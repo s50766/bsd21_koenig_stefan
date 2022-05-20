@@ -5,4 +5,4 @@ target/*
 *.html
 *.pdf
 *.idea
-
+*.log
