@@ -32,7 +32,10 @@ Then a simple if and else if construct calculates and if needed throws an except
     }
 ````
 
-I made this as an exercise nad of course the code shown above can be edited, but it should work fine.
+I made this as an exercise and of course the code shown above can be edited, but it should work fine.
+
+For logging inside the maven project, i made a log4j2.xml.template for everyone as a template.
+
 
 Down here i will post my exercise links.
 
@@ -41,6 +44,8 @@ Down here i will post my exercise links.
 [Exercise 2](exercise2.md)
 
 [Exercise 3](exercise3.md)
+
+[Exercise 4](exercise4.md)
 
 
 Here are also links to my github and to the website of Campus02.
