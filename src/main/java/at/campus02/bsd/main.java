@@ -4,8 +4,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import static at.campus02.bsd.Calculator.*;
-
+/**
+ * This is the main.java class and here all methods are used with given parameters.
+ *
+ *
+ * @author Stefan König
+ *
+ */
 public class main {
+    /**
+     * New logger object for maven logger plugin.
+     */
     private static Logger logger = LogManager.getLogger();
 
     public static void main(String[] args) {
