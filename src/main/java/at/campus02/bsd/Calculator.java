@@ -6,7 +6,6 @@ import org.apache.logging.log4j.Logger;
 /**
  * This is the Calculator.java class and here are all the methods written.
  *
- *
  * @author Stefan König
  *
  */
@@ -58,15 +57,20 @@ public class Calculator {
      * @param  number1   A Double Value given as a variable
      * @return      the result of the division
      */
-    public static double divide(double number1, double number2){
+    public static double divide(double number1, double number2) {
         Double result = 0.0;
 
         result = number1 / number2;
 
-        if (number2 == 0){
-            logger.error("Divide by zero.");
-
+        try {
+            if (number2 == 0){
+                logger.error("Divide by zero.");
+            throw new ArithmeticException();
+            }
+        } catch (ArithmeticException e){
+            throw new ArithmeticException();
         }
+
 
 
         return result;

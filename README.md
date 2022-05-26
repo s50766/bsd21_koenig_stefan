@@ -49,6 +49,8 @@ Down here i will post my exercise links.
 
 [Exercise 5](exercise5.md)
 
+[Exercise 6](exercise6.md)
+
 
 Here are also links to my github and to the website of Campus02.
 

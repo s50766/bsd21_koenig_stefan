@@ -1,9 +1,8 @@
 package at.campus02.bsd;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
@@ -23,17 +22,9 @@ public class CalculatorTest {
      *
      * setUp Method to start the JUnit testing.
      */
-    @Before
+    @BeforeEach
     public void setUp() {
         calc = new Calculator();
-    }
-
-    /**
-     *
-     * tearDown Method to shut down the JUnit testing.
-     */
-    @After
-    public void tearDown() {
     }
 
 
@@ -135,8 +126,8 @@ public class CalculatorTest {
      */
     @Test
     public void testDivide() {
-        int a = 6;
-        int b = 3;
+        double a = 6;
+        double b = 3;
         double result = a / b;
         Assertions.assertEquals(result, calc.divide(a, b));
     }
@@ -149,6 +140,10 @@ public class CalculatorTest {
      */
     @Test
     public void testDivisionByZero() {
+        double a = 6;
+        double b = 0;
+        double result = a / b;
+
         assertThrows(ArithmeticException.class, () -> {
             calc.divide(5, 0);
         });
